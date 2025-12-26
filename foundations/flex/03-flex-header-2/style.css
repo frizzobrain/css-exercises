@@ -46,3 +46,26 @@ a {
 ul {
   list-style-type: none;
 }
+
+/*solutions*/
+
+.header {
+  display: flex; /* flex mode on */
+  justify-content: space-between; /* space between the two divs inside the header */
+  padding: 8px; /* put a padding of 8px inside the header */
+}
+
+ul {
+  display: flex; /* flex mode on */
+  margin: 0; /* fix unordered list margin */
+  padding: 0; /* fix unordered list padding */
+  gap: 16px; /* gap between element of 16px *
+}
+
+.left, .right { /* left and right have these in common */
+  display: flex; /* flex mode on */
+  align-items: center; /* center items vertically */
+  gap: 16px; /* gap between element of 16px */
+};
+}
+
