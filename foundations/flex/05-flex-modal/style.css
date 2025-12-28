@@ -67,3 +67,32 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+.modal{
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.headerrow{
+  display: flex; /*put close button on the same row as the header*/
+  justify-content: space-between; /* put close button at the end of the line */
+  margin-bottom: 10px; /* give it a little space to breath */
+}
+
+.header{
+  font-size: large;
+  font-weight: bold;
+}
+
+/* .left{
+  background-color: aqua;
+} */
+
+/* .right{
+  background-color: red;
+} */
+
+.text{
+  margin-bottom: 10px; /* give it a little space to breath */
+}

@@ -9,12 +9,24 @@
   </head>
   <body>
     <div class="modal">
-      <div class="icon">!</div>
-      <div class="header">Are you sure you want to do that?</div>
-      <button class="close-button">✖</button>
-      <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur excepturi id soluta, numquam minima rerum doloremque eveniet aspernatur beatae commodi. Cupiditate recusandae ad repellendus quidem consectetur sequi amet aspernatur cumque!</div>
-      <button class="continue">Continue</button>
-      <button class="cancel">Cancel</button>
+      <div class="left">
+        <div class="icon">!</div>
+      </div>
+      <div class="right">
+        <div class="headerrow">
+          <div class="header">Are you sure you want to do that?</div>
+          <button class="close-button">✖</button>
+        </div>
+        <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur excepturi id soluta, numquam minima rerum doloremque eveniet aspernatur beatae commodi. Cupiditate recusandae ad repellendus quidem consectetur sequi amet aspernatur cumque!</div>
+        <button class="continue">Continue</button>
+        <button class="cancel">Cancel</button>
     </div>
   </body>
 </html>
+
+<!-- i've added 2 divs: first we can see that the content is splitted in two columns
+ first one on the left containing only the exclamation mark,
+ on the right we have all the other content.
+ On the first row of the right content we have the header and the close button.
+ We want the close button to be at the end of the row, separated from the header. 
+ The idea is to obtain this using flex container and justify content-->
